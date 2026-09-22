@@ -53,6 +53,10 @@ const BUSINESS_CONFIG = {
             url: "https://www.facebook.com/share/19XbVYLCjv/",
             icon: "fab fa-facebook-f",
         },
+        {
+            platform: "website",
+            url: "https://newchandramanandsons.tappoo.workers.dev/",
+        },
     ],
 
     // --- Logo ---
