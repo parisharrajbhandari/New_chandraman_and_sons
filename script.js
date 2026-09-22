@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const contactsSection = document.getElementById('contacts-section');
 
     // Threshold in pixels to trigger the animation
-    const headerThreshold = 50;
+    const headerThreshold = 10;
 
     // Listen for scroll events on the window
     window.addEventListener('scroll', () => {
@@ -124,7 +124,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 `N:${cfg.company.name};;;;`,
                 `ORG:${cfg.company.name}`,
                 `TITLE:${cfg.person.fullName} - ${cfg.person.title}`,
-                `NOTE:Contact: ${cfg.person.fullName} (${cfg.person.title})`,
+                `NOTE:${cfg.vcard.contactNote}`,
                 `PHOTO;ENCODING=b;TYPE=PNG:${cfg.vcard.photoBase64}`,
                 phoneLines,
                 `EMAIL;TYPE=PREF,INTERNET:${cfg.contact.email}`,

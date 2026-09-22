@@ -11,8 +11,8 @@ const BUSINESS_CONFIG = {
         firstName: "Bimish",
         middleName: "Man",
         lastName: "Shakya",
-        fullName: "Bimish Shakya",       // Displayed in header & vCard
-        title: "Manager",              // Job title / designation
+        fullName: "Mr. BimishMan Shakya",       // Displayed in header & vCard
+        title: "Proprietor",              // Job title / designation
     },
 
     // --- Company Details ---
@@ -63,6 +63,9 @@ const BUSINESS_CONFIG = {
 
     // --- vCard / Address Details ---
     vcard: {
+        // This note will be saved with the contact on the device.
+        // Customize it to include any info you want the recipient to see.
+        contactNote: "New Chandraman and Sons - Gold, Silver & Diamond Jewellery since 1961. Contact: Bimish man Shakya (Manager)",
         addressStreet: "New Channdraman and Sons",
         addressCity: "Chitwan",
         addressState: "Bagmati",
