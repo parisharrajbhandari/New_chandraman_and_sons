@@ -20,7 +20,9 @@ const BUSINESS_CONFIG = {
         name: "New Chandraman and Sons",    // Displayed in header & page title
         tagline: "Gold made since 1961",               // Used in the page <title>
         aboutHeading: "New Chandraman And Sons",     // Heading for the about section
-        aboutText: `Our shop has given serive since 1961 where sell all kinds of Gold, Silver and Diamond Jewellery. We take custom orders and designs. Be confident to buy from us.`,
+        aboutText: `Serving our customers since 1961, our shop offers a wide selection of gold, silver, and diamond jewellery. We also accept custom orders and create jewellery based on your unique designs and preferences.
+
+Shop with confidence and trust us for quality, craftsmanship, and exceptional service.`,
     },
 
     // --- Contact Details ---
